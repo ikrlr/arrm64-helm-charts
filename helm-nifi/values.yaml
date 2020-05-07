@@ -139,7 +139,7 @@ jvmMemory: 2g
 
 # Separate image for tailing each log separately
 sidecar:
-  image: ez123/alpine-tini
+  image: arm64v8/alpine
 
 ## Enable persistence using Persistent Volume Claims
 ## ref: http://kubernetes.io/docs/user-guide/persistent-volumes/
