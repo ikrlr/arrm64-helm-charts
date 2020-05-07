@@ -16,7 +16,7 @@ updateStrategy:
 ## - https://github.com/kubernetes/contrib/tree/master/statefulsets/zookeeper
 ## - https://github.com/kubernetes/contrib/blob/master/statefulsets/zookeeper/Makefile#L1
 image:
-  repository: hivecell/zookeeper:3.5.7-arm64     # Container image repository for zookeeper container.
+  repository: hivecell/zookeeper     # Container image repository for zookeeper container.
   tag: 3.5.7-arm64                # Container image tag for zookeeper container.
   pullPolicy: Always  # Image pull criteria for zookeeper container.
 
