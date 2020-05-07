@@ -7,7 +7,7 @@ replicaCount: 1
 ##
 image:
   repository: hivecell/nifi
-  tag: "1.11.4-arm64"
+  tag: "1.11.4-arm64-noHive"
   pullPolicy: IfNotPresent
 
   ## Optionally specify an imagePullSecret.
